@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1d2e;
+    color: white;
+    height: 100vh;  /* ESSENCIAL */
+    margin: 0;      /* remove margem padrão */
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
