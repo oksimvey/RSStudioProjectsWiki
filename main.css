@@ -8,15 +8,74 @@ body {
     color: white;
     height: 100vh;  /* ESSENCIAL */
     margin: 0;      /* remove margem padrão */
+
 }
 
+.project-card {
+    display: inline-block;
 
+      overflow: hidden;
+
+
+      border-radius: 25px;
+
+
+
+      border: gray solid 3px;
+
+
+
+    text-decoration: none;
+
+    transition: transform 0.3s ease-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-out;
+}
+
+.project-card img {
+
+
+
+    width: 200px;
+
+
+
+    border-radius: 50px;
+
+    display: block;
+
+     margin: 0 auto;
+
+     margin-bottom: 20px;
+
+
+
+       
+}
+
+.project-card p {
+
+    margin: 20px;
+
+    text-align: center;
+
+
+
+    font-family: Arial;
+
+    font-size: 25px;
+
+    color: white;
+}
 
 * {
     margin: 0;
     padding: 0;
 }
 h1 {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-size: 50px;
 }
